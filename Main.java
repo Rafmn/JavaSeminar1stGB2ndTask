@@ -5,7 +5,10 @@ public class Main {
 
         Wardrobe doorW = new Wardrobe();
 
-        System.out.print(masha.getName() + " "); doorW.door();
-        System.out.print(petya.getName() + " "); doorW.door();
+        doorW.getDoor(masha);
+        doorW.getDoor(petya);
+
+        // System.out.print(masha.getName() + " "); doorW.door();
+        // System.out.print(petya.getName() + " "); doorW.door();
     }
 }
